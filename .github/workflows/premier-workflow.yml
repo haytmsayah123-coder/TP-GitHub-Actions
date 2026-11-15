@@ -26,3 +26,6 @@ jobs:
         run: |
           echo "Nom : Haithem SIAH"
           echo "Date d'exécution : $(date)"
+      
+      - name: Vérifier le déclenchement automatique
+        run: echo "GitHub Actions s'est déclenché automatiquement !"
