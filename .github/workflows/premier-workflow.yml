@@ -21,3 +21,8 @@ jobs:
 
       - name: Nom du projet
         run: echo "Projet TP DevOps"
+
+      - name: Afficher mon nom et la date
+        run: |
+          echo "Nom : Haithem SIAH"
+          echo "Date d'exécution : $(date)"
