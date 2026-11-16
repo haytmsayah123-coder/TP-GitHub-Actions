@@ -29,3 +29,6 @@ jobs:
       
       - name: Vérifier le déclenchement automatique
         run: echo "GitHub Actions s'est déclenché automatiquement !"
+
+      - name : Fin du TP 4
+        run: echo "Fin du TP "
